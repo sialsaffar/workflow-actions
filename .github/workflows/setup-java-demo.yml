@@ -15,7 +15,7 @@ jobs:
           java-version: '21'
 
       - name: setup uv
-        uses: astral-sh/setup-uv@6
+        uses: astral-sh/setup-uv@5
         with:
           version: "latest"
           activate-environment: true
