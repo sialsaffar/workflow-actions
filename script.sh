@@ -6,6 +6,7 @@ ls
 
 echo "$(python -V)"
 
+echo "$(java -version)"
+
 echo "$(nextflow -version)"
 
-echo "$(nextflow info)"
