@@ -19,8 +19,6 @@ jobs:
         with:
           version: "latest"
           activate-environment: true
-          enable-cache: true
-          cache-dependency-glob: "**/pyproject.toml"
           python-version: 3.13t
-      - run: uv pip install --python=3.13t pip pytest==7.2.0 pytest-worflow==2.0.1 nextflow==23.10.1
+      - run: uv pip install --python=3.13t pip pytest==7.2.0 pytest-workflow==2.0.1 nextflow==23.10.1
 
