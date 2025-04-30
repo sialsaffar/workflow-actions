@@ -19,6 +19,6 @@ jobs:
         with:
           version: "latest"
           activate-environment: true
-          python-version: 3.12t
-      - run: uv pip install --python=3.12t pip
+          python-version: 3.13t
+      - run: uv pip install --python=3.13t pip
 
