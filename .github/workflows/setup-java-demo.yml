@@ -18,11 +18,9 @@ jobs:
         uses: astral-sh/setup-uv@v6
         with:
           version: "latest"
-          enable-cache: true
-          cache-dependency-glob: uv.lock
           activate-environment: true
-          python-version: 3.13t
-      - run: uv pip install --python=3.13t pip pytest==7.2.0 pytest-workflow==2.0.1 nextflow==23.10.1
+          python-version: 3.11
+      - run: uv pip install -r pyproject.toml
 
       - name: run script
         run: bash script.sh
