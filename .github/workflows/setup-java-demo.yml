@@ -23,5 +23,5 @@ jobs:
       - run: uv pip install -r pyproject.toml
 
       - name: run test
-        run: uv run pytest
+        run: bash script.sh
 

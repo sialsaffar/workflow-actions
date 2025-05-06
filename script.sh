@@ -10,3 +10,4 @@ echo "$(java -version)"
 
 echo "$(nextflow -version)"
 
+echo "$(pytest --version)"

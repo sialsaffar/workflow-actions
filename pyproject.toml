@@ -5,17 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
-    "attrs==25.3.0",
-    "iniconfig==2.1.0",
-    "jsonschema==4.23.0",
-    "jsonschema-specifications==2025.4.1",
     "nextflow==23.10.1",
-    "packaging==25.0",
-    "pluggy==1.5.0",
     "pytest==7.2.0",
     "pytest-workflow==2.0.1",
-    "pyyaml==6.0.2",
-    "referencing==0.36.2",
-    "rpds-py==0.24.0",
-    "typing-extensions==4.13.2",
 ]
